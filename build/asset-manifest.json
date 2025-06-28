@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2f11be5e.css",
-    "main.js": "/static/js/main.387236c7.js",
+    "main.js": "/static/js/main.24003af6.js",
     "static/js/453.c2a2dab4.chunk.js": "/static/js/453.c2a2dab4.chunk.js",
     "static/media/projects-hero-bg.png": "/static/media/projects-hero-bg.c082419c5629a865593a.png",
     "static/media/services-hero-bg.png": "/static/media/services-hero-bg.3000befd2a23f05f21cc.png",
@@ -31,11 +31,11 @@
     "static/media/gmc_aurangabad.webp": "/static/media/gmc_aurangabad.a731b8c29698ffa13441.webp",
     "index.html": "/index.html",
     "main.2f11be5e.css.map": "/static/css/main.2f11be5e.css.map",
-    "main.387236c7.js.map": "/static/js/main.387236c7.js.map",
+    "main.24003af6.js.map": "/static/js/main.24003af6.js.map",
     "453.c2a2dab4.chunk.js.map": "/static/js/453.c2a2dab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f11be5e.css",
-    "static/js/main.387236c7.js"
+    "static/js/main.24003af6.js"
   ]
 }
