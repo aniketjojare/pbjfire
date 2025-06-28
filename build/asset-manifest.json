@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.2f11be5e.css",
-    "main.js": "/static/js/main.1e9071c8.js",
+    "main.js": "/static/js/main.387236c7.js",
     "static/js/453.c2a2dab4.chunk.js": "/static/js/453.c2a2dab4.chunk.js",
     "static/media/projects-hero-bg.png": "/static/media/projects-hero-bg.c082419c5629a865593a.png",
     "static/media/services-hero-bg.png": "/static/media/services-hero-bg.3000befd2a23f05f21cc.png",
     "static/media/contact-hero-bg.png": "/static/media/contact-hero-bg.9a6b85d711e7f08fe743.png",
     "static/media/license-page1.jpg": "/static/media/license-page1.378b05f3ee9394652229.jpg",
     "static/media/license-page2.jpg": "/static/media/license-page2.07263aec90cc6bd71791.jpg",
-    "static/media/project2.webp": "/static/media/project2.b3f18f33501bddc6216c.webp",
     "static/media/about-hero-bg.webp": "/static/media/about-hero-bg.d6bcedb18255aca892d4.webp",
     "static/media/hero-bg.webp": "/static/media/hero-bg.184133bdc118dda8831f.webp",
-    "static/media/project1.webp": "/static/media/project1.29e4098144ac4bc77982.webp",
-    "static/media/project3.webp": "/static/media/project3.be58764fad4f0c46498d.webp",
     "static/media/bhuvanesh.jpg": "/static/media/bhuvanesh.fca62d8258c4b093595f.jpg",
     "static/media/refill.webp": "/static/media/refill.7fc7582d6257899fdaa5.webp",
     "static/media/consulting.webp": "/static/media/consulting.8d45df3b49def7e020f8.webp",
     "static/media/maintenance.webp": "/static/media/maintenance.52092592a19fe96de975.webp",
     "static/media/installation.webp": "/static/media/installation.d43e494553855db666c3.webp",
+    "static/media/csmc_garbage_depot.webp": "/static/media/csmc_garbage_depot.09a7fb381d200d5cdbfb.webp",
     "static/media/csmc_garbage.webp": "/static/media/csmc_garbage.53c6985c9766ea3124b5.webp",
     "static/media/alarm.webp": "/static/media/alarm.d6504526c79a5321de46.webp",
     "static/media/training.webp": "/static/media/training.ba8ddcd1dc6ae4cb044c.webp",
+    "static/media/fire_safety_training.webp": "/static/media/fire_safety_training.4257e69bc1e9dc5bf187.webp",
+    "static/media/shivajinagar_real_estate.webp": "/static/media/shivajinagar_real_estate.08b94d31b6b8b476655f.webp",
     "static/media/pbj_logo.png": "/static/media/pbj_logo.0866a79e895a94a5fe96.png",
     "static/media/cipet.webp": "/static/media/cipet.0d364501d3e4fcc8ae4a.webp",
     "static/media/shivajinagar_site.webp": "/static/media/shivajinagar_site.a68259120d4de064920f.webp",
@@ -31,11 +31,11 @@
     "static/media/gmc_aurangabad.webp": "/static/media/gmc_aurangabad.a731b8c29698ffa13441.webp",
     "index.html": "/index.html",
     "main.2f11be5e.css.map": "/static/css/main.2f11be5e.css.map",
-    "main.1e9071c8.js.map": "/static/js/main.1e9071c8.js.map",
+    "main.387236c7.js.map": "/static/js/main.387236c7.js.map",
     "453.c2a2dab4.chunk.js.map": "/static/js/453.c2a2dab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f11be5e.css",
-    "static/js/main.1e9071c8.js"
+    "static/js/main.387236c7.js"
   ]
 }
