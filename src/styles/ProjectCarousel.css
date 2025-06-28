@@ -1,0 +1,39 @@
+.project-carousel {
+  padding: 50px 0;
+  background: none;
+}
+
+.project-carousel h2 {
+  font-size: 2.5rem;
+  color: #ff4b5c;
+  font-weight: 700;
+}
+
+.carousel-image {
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+  background: rgba(255, 75, 92, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  transform: translateY(-20px);
+  animation: slideUp 1s ease-in-out;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(-20px); opacity: 1; }
+}

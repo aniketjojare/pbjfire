@@ -1,0 +1,94 @@
+.contact-cta {
+  background: linear-gradient(45deg, #d9534f, #b52b27); /* Gradient red */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+/* Subtle animation for background */
+.contact-cta::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(30deg);
+  animation: shine 6s infinite linear;
+  z-index: 0;
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) rotate(30deg); }
+  50% { transform: translateX(100%) rotate(30deg); }
+  100% { transform: translateX(-100%) rotate(30deg); }
+}
+
+.contact-cta > * {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.contact-cta h5 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contact-cta p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Increased specificity for contact-link */
+.contact-cta .contact-link {
+  color: #fff !important; /* Force white color */
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contact-cta .contact-link:hover {
+  color: #fff !important; /* Force white color on hover */
+  text-decoration: underline;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Subtle glow effect for readability */
+}
+
+.contact-cta .col-md-4:hover .cta-icon {
+  transform: scale(1.1);
+}
+
+.cta-button {
+  padding: 15px 40px;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background: #fff;
+  color: #ff4b5c;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #ff8c5c;
+  color: #fff;
+  transform: translateY(-5px);
+}

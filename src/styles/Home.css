@@ -1,0 +1,32 @@
+.home-page {
+  background: #fff; /* Base color */
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh; /* Ensures it covers the full page */
+}
+
+/* Glowing animation from ContactCTA */
+.home-page::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1); /* Subtle white glow */
+  transform: rotate(45deg);
+  animation: glow 8s infinite ease-in-out;
+  z-index: 0; /* Behind all content */
+}
+
+@keyframes glow {
+  0% { transform: rotate(45deg) translate(-50%, -50%); }
+  50% { transform: rotate(45deg) translate(0%, 0%); }
+  100% { transform: rotate(45deg) translate(-50%, -50%); }
+}
+
+/* Ensure all child components sit above the animation */
+.home-page > * {
+  position: relative;
+  z-index: 1;
+}
